@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="Initial project">
-      <change beforePath="$PROJECT_DIR$/.idea/elaniin_test_takami.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/elaniin_test_takami.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-JWT Auth implemented&#10;-User migrations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609981413303</updated>
       <workItem from="1609981414399" duration="528000" />
-      <workItem from="1609982411754" duration="2003000" />
+      <workItem from="1609982411754" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project">
       <created>1609982538415</created>
@@ -180,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609982538415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-JWT Auth implemented&#10;-User migrations">
+      <created>1609984469759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609984469759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project" />
+    <MESSAGE value="-JWT Auth implemented&#10;-User migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="-JWT Auth implemented&#10;-User migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609982470227">
