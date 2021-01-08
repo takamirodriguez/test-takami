@@ -13,11 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-CRUD for Products&#10;-User seeder/factory&#10;-Product Seeder/factory">
+    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-Added comments&#10;-Added password reset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +180,7 @@
       <workItem from="1609981414399" duration="528000" />
       <workItem from="1609982411754" duration="12346000" />
       <workItem from="1610060682294" duration="4703000" />
-      <workItem from="1610074598260" duration="13912000" />
+      <workItem from="1610074598260" duration="15780000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project">
       <created>1609982538415</created>
@@ -227,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610084766068</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-Added comments&#10;-Added password reset">
+      <created>1610089346594</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610089346594</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,20 +255,37 @@
     <MESSAGE value="-CRUD for USER" />
     <MESSAGE value="-Changed columns attributes for products&#10;-Installed necessary dependency" />
     <MESSAGE value="-CRUD for Products&#10;-User seeder/factory&#10;-Product Seeder/factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="-CRUD for Products&#10;-User seeder/factory&#10;-Product Seeder/factory" />
+    <MESSAGE value="-Added comments&#10;-Added password reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Added comments&#10;-Added password reset" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610090213872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610090213872" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610088215759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610088215759" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1610089357855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610089357855" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609982470227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609982470227" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610087574821">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610090163001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610087574821" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610090163001" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610089767278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610089767278" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610089200663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610089200663" />
   </component>
 </project>
