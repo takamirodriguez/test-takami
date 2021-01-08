@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Str;
 
-$DATABASE_URL=parse_url('mysql://dmklr9e30lcc1mh5:uklmajzolffm14wc@l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/wu83gsrylthd61fy');
+//$DATABASE_URL=parse_url('mysql://dmklr9e30lcc1mh5:uklmajzolffm14wc@l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/wu83gsrylthd61fy');
 
 return [
 
@@ -47,7 +47,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL',ltrim($DATABASE_URL["path"],"/")),
+            'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
