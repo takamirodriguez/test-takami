@@ -9,12 +9,29 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-Added comments&#10;-Added password reset">
+    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-Procfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +197,7 @@
       <workItem from="1609981414399" duration="528000" />
       <workItem from="1609982411754" duration="12346000" />
       <workItem from="1610060682294" duration="4703000" />
-      <workItem from="1610074598260" duration="15780000" />
+      <workItem from="1610074598260" duration="16890000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project">
       <created>1609982538415</created>
@@ -231,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610089346594</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-Procfile">
+      <created>1610090849044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610090849044</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +266,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -256,7 +292,8 @@
     <MESSAGE value="-Changed columns attributes for products&#10;-Installed necessary dependency" />
     <MESSAGE value="-CRUD for Products&#10;-User seeder/factory&#10;-Product Seeder/factory" />
     <MESSAGE value="-Added comments&#10;-Added password reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Added comments&#10;-Added password reset" />
+    <MESSAGE value="-Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Procfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610090213872">
@@ -275,10 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609982470227" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610090163001">
+    <state x="268" y="236" key="Vcs.Push.Dialog.v2" timestamp="1610090921160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610090163001" />
+    <state x="268" y="236" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610090921160" />
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610089767278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
