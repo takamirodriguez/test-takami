@@ -2,6 +2,9 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\UserController;
+use App\Http\Controllers\API\ProductController;
+use App\Http\Controllers\API\JWTAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,11 +21,16 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 
-Route::post('register', 'App\Http\Controllers\UserController@register');
-Route::post('login', 'App\Http\Controllers\UserController@authenticate');
+Route::post('register', [UserController::class, 'store']);
+Route::post('login', [UserController::class, 'login']);
 
-Route::group(['middleware' => ['jwt.verify']], function() {
+Route::group(['middleware' => 'jwt.auth'], function () {
 
-    Route::post('user','App\Http\Controllers\UserController@getAuthenticatedUser');
+    Route::apiResource('user',UserController::class);
+
+    Route::post('logout', [UserController::class, 'logout']);
+    Route::post('getUser',[UserController::class, 'getUser']);
+    Route::apiResource('products',ProductController::class);
 
 });
+
