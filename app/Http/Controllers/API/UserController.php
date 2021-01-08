@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Tymon\JWTAuth\Exceptions\JWTException;
+use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
+use Illuminate\Foundation\Auth\ResetsPasswords;
 use Response;
 
 class UserController extends Controller
@@ -22,7 +24,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         //Show user list by 15 result per page
-        $users = User::paginate(15);
+        $users = User::paginate(15); //Pagination items number can be send as paramater if needed
         return response()->json($users, 200);
 
     }
@@ -197,7 +199,5 @@ class UserController extends Controller
 
         return response()->json(['user' => $user]);
     }
-
-
 
 }
