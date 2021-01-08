@@ -30,7 +30,9 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 
     Route::post('logout', [UserController::class, 'logout']);
     Route::post('getUser',[UserController::class, 'getUser']);
+
     Route::apiResource('products',ProductController::class);
+    Route::post('products/{id}',[ProductController::class,'update']);
 
 });
 
