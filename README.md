@@ -1,4 +1,4 @@
-# Laravel TEST for Elaniin
+# Laravel TEST
 
 Backend project made with Laravel 8 using API features.
 
@@ -32,10 +32,10 @@ nombre y por SKU.
 2. Use login to get and set JWT token before using other endpoints
 
 # How to install project locally
-1. Clone repository from GIT: https://github.com/takamirodriguez/elaniin-test-laravel.git
+1. Clone repository from GIT: https://github.com/takamirodriguez/test-laravel.git
 2. Generate a new .env file with your setting.
 3. Use php artisan jwt:secret to generate a new key.
-4. You can run migrations and seeders or import the MySQL Dump file "elaniin_test_db.sql" from root directory.
+4. You can run migrations and seeders or import the MySQL Dump file "test_db.sql" from root directory.
 5. Use PHP artisan serve
 6. Connect POSTMAN to your local URL (Postman collection file is in root directory "API.postman_collection.json") 
 

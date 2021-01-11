@@ -9,29 +9,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-Added SQL dump">
-      <change afterPath="$PROJECT_DIR$/API.postman_collection.json" afterDir="false" />
+    <list default="true" id="d92fe11a-e236-410a-8681-5484cd021c5d" name="Default Changelist" comment="-Fixed README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/API.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elaniin_test_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/elaniin_test_db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +164,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -205,7 +192,10 @@
       <workItem from="1609981414399" duration="528000" />
       <workItem from="1609982411754" duration="12346000" />
       <workItem from="1610060682294" duration="4703000" />
-      <workItem from="1610074598260" duration="21295000" />
+      <workItem from="1610074598260" duration="21920000" />
+      <workItem from="1610131002729" duration="44000" />
+      <workItem from="1610401926686" duration="1375000" />
+      <workItem from="1610403775231" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project">
       <created>1609982538415</created>
@@ -298,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610128799035</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="-Added POSTMAN collection file&#10;-Changed README.md file">
+      <created>1610130206488</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610130206488</updated>
+    </task>
+    <task id="LOCAL-00015" summary="-Fixed README.md">
+      <created>1610130370792</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610130370792</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,23 +313,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project" />
@@ -340,7 +333,9 @@
     <MESSAGE value="-Changed to JawMySQL to Heroku" />
     <MESSAGE value="-Changed password reset expire to 15 minutes" />
     <MESSAGE value="-Added SQL dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Added SQL dump" />
+    <MESSAGE value="-Added POSTMAN collection file&#10;-Changed README.md file" />
+    <MESSAGE value="-Fixed README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Fixed README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610090213872">
@@ -355,18 +350,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610089357855" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609982470227">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1610403070598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609982470227" />
-    <state x="268" y="236" key="Vcs.Push.Dialog.v2" timestamp="1610128802040">
+    <state x="740" y="261" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610403070598" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1610403737332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="268" y="236" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610128802040" />
-    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610089767278">
+    <state x="461" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610403737332" />
+    <state x="268" y="236" key="Vcs.Push.Dialog.v2" timestamp="1610403095915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610089767278" />
+    <state x="268" y="236" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610403095915" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610403788022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610403788022" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610094036867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

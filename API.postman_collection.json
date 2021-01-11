@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "7c1144ea-3da8-4c74-8376-d02bc0bb5e13",
 		"name": "API",
-		"description": "Endpoints for Elaniin-test-laravel project",
+		"description": "Endpoints for test-laravel project",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
