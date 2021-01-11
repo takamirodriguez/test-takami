@@ -32,7 +32,7 @@ nombre y por SKU.
 2. Use login to get and set JWT token before using other endpoints
 
 # How to install project locally
-1. Clone repository from GIT: https://github.com/takamirodriguez/test-laravel.git
+1. Clone repository from GIT: https://github.com/takamirodriguez/test-takami.git
 2. Generate a new .env file with your setting.
 3. Use php artisan jwt:secret to generate a new key.
 4. You can run migrations and seeders or import the MySQL Dump file "test_db.sql" from root directory.
