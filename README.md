@@ -4,28 +4,28 @@ Backend project made with Laravel 8 using API features.
 
 ## Habilidades y elementos a evaluar:
 1. Desarrollo de una API Rest
-1.1. Aplicar especificaciones de desarrollo de API’s (JSON:API, OPEN API)
-1.2. Buenas prácticas bajo el lenguaje que se esté desarrollando
-2. Autenticación
-2.1. Se deberá usar JWT u OAuth 2.0
-2.2. Proceso de login con campos email y password.
-2.3. Proceso de registro con campos nombre, teléfono, username, fecha de nacimiento, email y
+2. Aplicar especificaciones de desarrollo de API’s (JSON:API, OPEN API)
+3. Buenas prácticas bajo el lenguaje que se esté desarrollando
+4. Autenticación
+5. Se deberá usar JWT u OAuth 2.0
+6. Proceso de login con campos email y password.
+7. Proceso de registro con campos nombre, teléfono, username, fecha de nacimiento, email y
 password. Deberá validar que el email y username sean únicos.
-2.4. Deberá tener validación de tipo de campo, por ejemplo, teléfono sólo deberá aceptar números.
-2.5. Recuperación de contraseña, mediante un link de recuperación al email de usuario, el link deberá
+8. Deberá tener validación de tipo de campo, por ejemplo, teléfono sólo deberá aceptar números.
+9. Recuperación de contraseña, mediante un link de recuperación al email de usuario, el link deberá
 vencer luego de 15 minutos.
 
 ## 3. Creación de CRUD’s (Usuarios, Productos)
-3.1. CRUD de lista de usuarios registrados.
-3.2. CRUD de productos, los campos de cada producto son: SKU, nombre, cantidad, precio,
+1. CRUD de lista de usuarios registrados.
+2 CRUD de productos, los campos de cada producto son: SKU, nombre, cantidad, precio,
 descripción e imagen, siendo nombre, cantidad y precio campos obligatorios.
-3.3. Cada listado deberá contener paginación.
-3.4. Se deberá crear un buscador de productos, este deberá ser case insensitive, se podrá buscar por
+3. Cada listado deberá contener paginación.
+4. Se deberá crear un buscador de productos, este deberá ser case insensitive, se podrá buscar por
 nombre y por SKU.
 
 ## 4. Link de colección de endpoints en Postman
-4.1. Incluir documentación respectiva
-4.2. Manejo de respuestas HTTP
+1. Incluir documentación respectiva
+2. Manejo de respuestas HTTP
 
 # How to test endpoints
 1. Use POSTMAN documentation link:  https://documenter.getpostman.com/view/531434/TVzPmyoB
